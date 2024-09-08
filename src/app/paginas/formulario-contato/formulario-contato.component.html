@@ -1,0 +1,64 @@
+<app-container>
+    <header>
+        <section class="cabecalho-link">
+            <img src="assets/logo.png" alt="">
+        </section>
+        <section class="cabecalho-contato">
+            <img src="assets/adicionar-contato.png" alt="">
+            <h1>Adicionar Contato</h1>
+        </section>
+    </header>
+
+    <form action="">
+        <label for="Nome">Nome</label>
+        <input 
+            type="text" 
+            name="" 
+            id="nome"
+            placeholder="Digite o nome do contato"
+        >
+        <label for="Telefone">Telefone</label>
+        <input 
+            type="text" 
+            name="" 
+            id="telefone"
+            placeholder="Digite o telefone do contato"
+        >
+        <label for="email">E-mail</label>
+        <input 
+            type="email" 
+            name="" 
+            id="email"
+            placeholder="Digite o email do contato"
+        >
+        <app-separador></app-separador>
+        <label for="aniversario"></label>
+        <input 
+            type="date" 
+            name="" 
+            id="aniversario"
+            placeholder="Data de nascimento"
+        >
+        <label for="redes">Redes Sociais</label>
+        <div class="input-container">
+            <span class="span-http">http://</span>
+            <input 
+                type="url" 
+                name="" 
+                id="redes"
+                placeholder="Adicione a URL da pagina"
+            >
+        </div>
+        <label for="Nome"></label>
+        <textarea 
+            type="text"
+            name="" 
+            id=""
+            placeholder=""
+        ></textarea>
+        <section class="botoes">
+            <button class="botao-cancelar" type="button">Cancelar</button>
+            <button class="botao-salvar" type="submit">Salvar Contato</button>
+        </section>
+    </form>
+</app-container>
