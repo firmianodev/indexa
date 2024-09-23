@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { FormularioContatoComponent } from '../formulario-contato/formulario-contato.component';
 
 import agenda from '../../agenda.json'
+import { RouterLink } from '@angular/router';
 
 interface Contato {
   id: number 
@@ -25,7 +26,8 @@ interface Contato {
     SeparadorComponent, 
     ContatoComponent, 
     FormsModule,
-    FormularioContatoComponent
+    FormularioContatoComponent,
+    RouterLink
   ],
   templateUrl: './lista-contatos.component.html',
   styleUrl: './lista-contatos.component.css'

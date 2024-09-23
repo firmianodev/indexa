@@ -6,6 +6,13 @@
       placeholder="Digite para Buscar"
       [(ngModel)]="filtroPorTexto"
     >
+
+    <section class="adicionar-contato">
+      <button routerLink="/formulario">
+        <img src="assets/plus.png" alt="">
+        <span>Adicionar Contato</span>
+      </button>
+    </section>
   
     @for (letra of alfabeto; track letra) {
       <app-separador>
