@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ContainerComponent } from "../../componentes/container/container.component";
 import { CommonModule } from '@angular/common';
 import { Contato } from '../../componentes/contato/contato';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-perfil-contato',
@@ -9,6 +10,7 @@ import { Contato } from '../../componentes/contato/contato';
   imports: [
     CommonModule,
     ContainerComponent,
+    RouterLink
 
   ],
   templateUrl: './perfil-contato.component.html',
